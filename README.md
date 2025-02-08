@@ -1,3 +1,15 @@
+# Hello sample of Ohkami on Lambda
+
+## Endpoints
+
+- `GET /` : Just `Hello, AWS Lambda!` text
+- `GET /hello` : With optional `name` and `repeat` query, `Hello, {name}!` * `{repeat}` times. Default to `Hello, world!`.
+- `POST /hello` : With JSON request body with optional `name` and `repeat` field, do the same as `GET /hello`.
+
+---
+
+[template](https://github.com/ohkami-rs/ohkami-templates/tree/main/template) README :
+
 # AWS Lambda template
 
 ## Prerequisites
