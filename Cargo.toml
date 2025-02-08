@@ -1,5 +1,5 @@
 [package]
-name = "cargo-lambda-hello-sample"
+name = "ohkami-lambda-hello-sample"
 version = "0.1.0"
 edition = "2021"
 
